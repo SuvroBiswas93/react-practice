@@ -2,6 +2,7 @@ import Counter from './Counter'
 import './App.css'
 import Batsman from './Batsman'
 import Baller from './Baller'
+import Users from './Users'
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
     <>
      
       <h1>React Core Concept</h1>
-
+      <Users></Users>
       <Baller></Baller>
       <Batsman></Batsman>
       <Counter></Counter>   
