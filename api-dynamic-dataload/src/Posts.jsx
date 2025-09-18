@@ -1,0 +1,19 @@
+import { use } from "react"
+import Post from "./Post"
+
+export default function Posts({postsPromise}){
+
+    const posts = use(postsPromise)
+    console.log(posts)
+    return(
+        <div className="box">
+            <h3>Posts : {posts.length}</h3>
+            {/* {
+                posts.map(post => <Post name={}></Post>)
+            } */}
+            {
+                posts.map((post)=><Post key={id} post={post}></Post>)
+            }
+        </div>
+    )
+}
