@@ -12,7 +12,7 @@ export default function Posts({postsPromise}){
                 posts.map(post => <Post name={}></Post>)
             } */}
             {
-                posts.map((post)=><Post key={id} post={post}></Post>)
+                posts.map((post)=><Post  post={post}></Post>)
             }
         </div>
     )
