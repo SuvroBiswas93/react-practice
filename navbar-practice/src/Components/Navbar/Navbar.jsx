@@ -1,4 +1,6 @@
+import { Link } from 'lucide-react';
 import React from 'react';
+import LinkItems from './LinkItems';
 
 // navData.js
 export const navItems = [
@@ -31,12 +33,18 @@ export const navItems = [
 
 const Navbar = () => {
     return (
-        <nav className='shadow-lg'>
-            <ul className='flex justify-center items-center gap-10 p-4 '>
+        <nav className='shadow-lg flex justify-center items-center gap-10'>
+            <ul className='flex justify-center items-center gap-10 p-4'>
+               {
+                navItems.map((item,id)=><LinkItems key={id} item={item}></LinkItems>)
+               }
+            </ul>
+
+            {/* <ul className='flex justify-center items-center gap-10 p-4 '>
                 {
                     navItems.map(item => <li><a href={item.path}>{item.name}</a></li> )
                 }
-            </ul>
+            </ul> */}
 
             {/* <ul className='flex justify-center items-center gap-10'>
                 <li><a href="/">Home</a></li>
