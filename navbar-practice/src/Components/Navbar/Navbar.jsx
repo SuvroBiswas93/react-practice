@@ -1,5 +1,5 @@
-import { Link } from 'lucide-react';
-import React from 'react';
+import { Link, Menu, X } from 'lucide-react';
+import React, { useState } from 'react';
 import LinkItems from './LinkItems';
 
 // navData.js
@@ -32,8 +32,18 @@ export const navItems = [
 ];
 
 const Navbar = () => {
+  const[open,setOpen]=useState(false)
     return (
-        <nav className='shadow-lg flex justify-center items-center gap-10'>
+        <div className=' '>
+            <nav className='shadow-lg flex justify-between items-center p-3  '>
+            
+            <span className='flex items-center gap-2' onClick={()=> setOpen(!open)}>
+              {open? <X className='md:hidden'></X> : <Menu className='md:hidden'></Menu>  }
+              
+               <h3 className='bg-green-500 text-white  rounded-lg h-[40px] flex justify-center items-center px-4 py-2 
+               cursor-pointer font-semibold text-md shadow-md hover:bg-green-600 transition '>Navbar</h3>
+            </span>
+           
             <ul className='flex justify-center items-center gap-10 p-4'>
                {
                 navItems.map((item,id)=><LinkItems key={id} item={item}></LinkItems>)
@@ -52,7 +62,9 @@ const Navbar = () => {
                 <li><a href="/contact">Contact</a></li>
                 
             </ul> */}
+            <button className='btn bg-blue-300 text-white'>Button</button>
         </nav>
+        </div>
     );
 };
 
