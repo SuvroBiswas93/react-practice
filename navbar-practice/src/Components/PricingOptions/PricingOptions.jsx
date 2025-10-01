@@ -7,10 +7,10 @@ const PricingOptions = ({fetchPromise}) => {
     console.log(priceData)
     return (
         <div>
-            <h2>Get Our Membership</h2>
-            <div>
+            <h2 className='my-6 text-center text-3xl font-extrabold'>Get Our Membership</h2>
+            <div className='grid grid-cols-1 mx-2 md:grid-cols-3 gap-6 '>
                 {
-                    priceData.map((price,id) =><CardPrice key={id} price={price}></CardPrice>) 
+                    priceData.map((pricing,id) =><CardPrice key={id} pricing={pricing}></CardPrice>) 
                 }
             </div>
         </div>

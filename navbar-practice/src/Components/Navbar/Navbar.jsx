@@ -36,14 +36,14 @@ const Navbar = () => {
   const links =  navItems.map((item,id)=><LinkItems key={id} item={item}></LinkItems>)
     return (
         <div className=' '>
-            <nav className='shadow-lg flex justify-between items-center p-3  '>
+            <nav className='flex justify-between items-center p-3 bg-emerald-300 '>
             
             <span className='flex items-center  gap-2' onClick={()=> setOpen(!open)}>
               {open? <X className='md:hidden'></X> : <Menu className='md:hidden'></Menu>  }
               
 
               <ul className={`md:hidden absolute bg-amber-300 p-2 rounded space-y-2 duration-1000
-                ${open ? 'top-18' : '-top-80'} `}>
+                ${open ? 'top-15' : '-top-80'} `}>
 
                 {links}
 

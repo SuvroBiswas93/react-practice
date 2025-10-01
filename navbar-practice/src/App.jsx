@@ -21,7 +21,7 @@ function App() {
         {/* <DaisyNav></DaisyNav> */}
       </header>
       <main>
-        <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
+        <Suspense fallback={<span className="loading loading-ring loading-xl items-center"></span>}>
           <PricingOptions fetchPromise={fetchPromise}></PricingOptions>
         </Suspense>
       </main>
