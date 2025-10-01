@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Plan",
+    "price": "$9/month",
+    "features": [
+      "Access to core features",
+      "Single user account",
+      "Email support",
+      "5 GB cloud storage",
+      "Basic dashboard analytics",
+      "Community forum access",
+      "Standard security protection"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pro Plan",
+    "price": "$29/month",
+    "features": [
+      "All Basic features",
+      "Up to 5 team members",
+      "Priority email & chat support",
+      "50 GB cloud storage",
+      "Advanced dashboard analytics",
+      "Customizable reports",
+      "API access",
+      "Monthly product updates",
+      "Role-based permissions",
+      "Integrations with popular tools"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Enterprise Plan",
+    "price": "$99/month",
+    "features": [
+      "All Pro features",
+      "Unlimited team members",
+      "Dedicated account manager",
+      "24/7 premium phone & chat support",
+      "1 TB secure cloud storage",
+      "AI-powered insights & automation",
+      "Advanced security & compliance",
+      "Custom onboarding & training",
+      "Dedicated server option",
+      "Service Level Agreement (SLA)",
+      "Custom integrations & workflows",
+      "Early access to new features"
+    ]
+  }
+]
