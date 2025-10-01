@@ -16,6 +16,7 @@
   {
     "id": 2,
     "title": "Pro Plan",
+    "popular":"true",
     "price": "$29/month",
     "features": [
       "All Basic features",
