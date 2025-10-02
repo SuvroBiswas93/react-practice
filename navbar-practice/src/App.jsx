@@ -3,6 +3,7 @@ import './App.css'
 import DaisyNav from './Components/DaisyNav/DaisyNav'
 import Navbar from './Components/Navbar/Navbar'
 import PricingOptions from './Components/PricingOptions/PricingOptions'
+import Charts from './Components/Charts/Charts'
 
  const fetchPriceData = async () =>{
   const response = await fetch('/priceData.json')
@@ -24,6 +25,8 @@ function App() {
         <Suspense fallback={<span className="loading loading-ring loading-xl items-center"></span>}>
           <PricingOptions fetchPromise={fetchPromise}></PricingOptions>
         </Suspense>
+
+        <Charts></Charts>
       </main>
      
     </>

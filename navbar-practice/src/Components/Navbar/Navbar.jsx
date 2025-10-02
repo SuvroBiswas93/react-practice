@@ -43,7 +43,7 @@ const Navbar = () => {
               
 
               <ul className={`md:hidden absolute bg-amber-300 p-2 rounded space-y-2 duration-1000
-                ${open ? 'top-15' : '-top-80'} `}>
+                ${open ? 'top-10' : '-top-80'} `}>
 
                 {links}
 
