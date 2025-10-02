@@ -5,7 +5,7 @@ import DaisyPriceCard from '../DaisyPriceCard/DaisyPriceCard';
 
 const PricingOptions = ({fetchPromise}) => {
     const priceData = use(fetchPromise)
-    console.log(priceData)
+    // console.log(priceData)
     return (
         <div>
             <h2 className='my-6 text-center text-3xl font-extrabold'>Get Our Membership</h2>

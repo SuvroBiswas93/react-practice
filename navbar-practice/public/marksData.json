@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Alice",
+    "math": 85,
+    "otherSubjects": {
+      "science": 90,
+      "english": 78,
+      "history": 88
+    }
+  },
+  {
+    "name": "Bob",
+    "math": 72,
+    "otherSubjects": {
+      "science": 80,
+      "english": 65,
+      "history": 70
+    }
+  },
+  {
+    "name": "Charlie",
+    "math": 95,
+    "otherSubjects": {
+      "science": 92,
+      "english": 88,
+      "history": 90
+    }
+  },
+  {
+    "name": "David",
+    "math": 60,
+    "otherSubjects": {
+      "science": 70,
+      "english": 75,
+      "history": 65
+    }
+  },
+  {
+    "name": "Eva",
+    "math": 88,
+    "otherSubjects": {
+      "science": 85,
+      "english": 92,
+      "history": 80
+    }
+  },
+  {
+    "name": "Frank",
+    "math": 75,
+    "otherSubjects": {
+      "science": 78,
+      "english": 70,
+      "history": 72
+    }
+  },
+  {
+    "name": "Grace",
+    "math": 90,
+    "otherSubjects": {
+      "science": 95,
+      "english": 85,
+      "history": 88
+    }
+  },
+  {
+    "name": "Hannah",
+    "math": 68,
+    "otherSubjects": {
+      "science": 72,
+      "english": 70,
+      "history": 65
+    }
+  }
+]
