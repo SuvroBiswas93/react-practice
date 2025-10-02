@@ -23,7 +23,7 @@ const ExBarChart = ({marksPromise}) => {
 
 
     return (
-        <div className='mt-10'>
+        <div className='mt-10 grid place-items-center'>
             <BarChart width={500} height={400} data={result}>
                 <XAxis dataKey={'Name'}></XAxis>
                 <YAxis></YAxis>
