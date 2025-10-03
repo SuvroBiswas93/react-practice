@@ -11,6 +11,7 @@ const Header = () => {
                 <NavLink className={({ isActive }) => isActive ? 'bg-green-400 px-4 py-2 rounded-xl' : ''} to="/laptops">Laptops</NavLink>
                 <NavLink className={({ isActive }) => isActive ? 'bg-green-400 px-4 py-2 rounded-xl' : ''} to="/mobiles">Mobiles</NavLink>
                 <NavLink className={({ isActive }) => isActive ? 'bg-green-400 px-4 py-2 rounded-xl' : ''} to="/users">Users</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'bg-green-400 px-4 py-2 rounded-xl' : ''} to="/posts">Posts</NavLink>
                 <NavLink className={({ isActive }) => isActive ? 'bg-green-400 px-4 py-2 rounded-xl' : ''} to="/users2">Users2</NavLink>
                 <NavLink className={({ isActive }) => isActive ? 'bg-green-400 px-4 py-2 rounded-xl' : ''} to="/contact">Contact</NavLink>
                 

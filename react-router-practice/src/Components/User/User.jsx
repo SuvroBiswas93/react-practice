@@ -9,7 +9,7 @@ const User = ({user}) => {
             <p>Email:{email}</p>
             <p><small>Phone:{phone}</small></p>
             <div className='animate-bounce'>
-                <Link to={`users/${id}`}className='text-blue-500 hover:text-blue-700 underline '><span className='animate-bounce'>Show Details</span></Link>
+                <Link to={`/users/${id}`}className='text-blue-500 hover:text-blue-700 underline '><span className='animate-bounce'>Show Details</span></Link>
             </div>
         </div>
     );
