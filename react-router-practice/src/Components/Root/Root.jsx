@@ -8,8 +8,8 @@ const Root = () => {
     return (
         <div>
             <Header></Header>
-            <div className='flex justify-center items-center gap-5'>
-                    <SideBar></SideBar>
+            <div className='flex justify-center items-center  gap-5'>
+                <SideBar></SideBar>
                 
                 <Outlet></Outlet>
             </div>
