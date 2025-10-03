@@ -1,12 +1,19 @@
 import React from 'react';
 import Header from '../Header/Header';
 import { Outlet } from 'react-router';
+import Footer from '../Footer/Footer';
+import SideBar from '../SideBar/SideBar';
 
 const Root = () => {
     return (
         <div>
             <Header></Header>
-            <Outlet></Outlet>
+            <div className='flex justify-center items-center gap-5'>
+                    <SideBar></SideBar>
+                
+                <Outlet></Outlet>
+            </div>
+            <Footer></Footer>
         </div>
     );
 };
